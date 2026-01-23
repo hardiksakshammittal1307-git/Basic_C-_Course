@@ -12,15 +12,18 @@ private:
     void ones_complement(void);
 
 public:
-    void read(void);
+    void read(void){
+    cout << "Enter The Binary No." << endl;
+    cin >> s;
+    }
     void display(void);
 };
 
-void binary::read(void)
-{
-    cout << "Enter The Binary No." << endl;
-    cin >> s;
-}
+// void binary::read(void)
+// {
+//     cout << "Enter The Binary No." << endl;
+//     cin >> s;
+// }
 
 void binary::chk_bin(void)
 {
